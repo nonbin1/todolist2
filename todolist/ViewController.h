@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSMutableArray *todoItems;
+    IBOutlet UITableView *todoListsTable;
+}
 
+@property NSMutableArray *todoItems;
 
 @end
 
