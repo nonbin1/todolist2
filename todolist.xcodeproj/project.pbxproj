@@ -77,6 +77,12 @@
 		715DE4261945E0A3006DE972 /* iconnav.png in Resources */ = {isa = PBXBuildFile; fileRef = 715DE41E1945E0A3006DE972 /* iconnav.png */; };
 		715DE42A1945FF50006DE972 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715DE4291945FF50006DE972 /* AddTaskViewController.m */; };
 		715DE42D1946A073006DE972 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 715DE42C1946A073006DE972 /* ToDoItem.m */; };
+		71B2EC0A194805F300CCB28B /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B2EC09194805F300CCB28B /* iCarousel.m */; };
+		71B2EC0C194808E700CCB28B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2EC0B194808E700CCB28B /* QuartzCore.framework */; };
+		71B2EC0E194808ED00CCB28B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2EC0D194808ED00CCB28B /* UIKit.framework */; };
+		71B2EC10194808F100CCB28B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2EC0F194808F100CCB28B /* Foundation.framework */; };
+		71B2EC12194808F800CCB28B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2EC11194808F800CCB28B /* CoreGraphics.framework */; };
+		71B2EC1619480A2700CCB28B /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B2EC1519480A2700CCB28B /* CarouselViewController.m */; };
 		71D1D5871945C9C20022C710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D5861945C9C20022C710 /* main.m */; };
 		71D1D58A1945C9C20022C710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D5891945C9C20022C710 /* AppDelegate.m */; };
 		71D1D58D1945C9C20022C710 /* todolist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D58B1945C9C20022C710 /* todolist.xcdatamodeld */; };
@@ -172,6 +178,14 @@
 		715DE4291945FF50006DE972 /* AddTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
 		715DE42B1946A073006DE972 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
 		715DE42C1946A073006DE972 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		71B2EC08194805F300CCB28B /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		71B2EC09194805F300CCB28B /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		71B2EC0B194808E700CCB28B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		71B2EC0D194808ED00CCB28B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71B2EC0F194808F100CCB28B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71B2EC11194808F800CCB28B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71B2EC1419480A2700CCB28B /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		71B2EC1519480A2700CCB28B /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 		71D1D5811945C9C20022C710 /* todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D1D5851945C9C20022C710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D1D5861945C9C20022C710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -197,6 +211,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B2EC12194808F800CCB28B /* CoreGraphics.framework in Frameworks */,
+				71B2EC10194808F100CCB28B /* Foundation.framework in Frameworks */,
+				71B2EC0E194808ED00CCB28B /* UIKit.framework in Frameworks */,
+				71B2EC0C194808E700CCB28B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,10 +245,31 @@
 			name = ThemesDefault;
 			sourceTree = "<group>";
 		};
+		71B2EC07194805F300CCB28B /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				71B2EC08194805F300CCB28B /* iCarousel.h */,
+				71B2EC09194805F300CCB28B /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		71B2EC13194809AA00CCB28B /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				71B2EC11194808F800CCB28B /* CoreGraphics.framework */,
+				71B2EC0F194808F100CCB28B /* Foundation.framework */,
+				71B2EC0D194808ED00CCB28B /* UIKit.framework */,
+				71B2EC0B194808E700CCB28B /* QuartzCore.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
 		71D1D5781945C9C20022C710 = {
 			isa = PBXGroup;
 			children = (
 				71D1D5831945C9C20022C710 /* todolist */,
+				71B2EC13194809AA00CCB28B /* Framework */,
 				71D1D59D1945C9C30022C710 /* todolistTests */,
 				71D1D5821945C9C20022C710 /* Products */,
 			);
@@ -261,8 +300,11 @@
 				71DD99F51946C55500924BCA /* TodoItemCellTableViewCell.m */,
 				71DD99FC1946F77200924BCA /* BVReorderTableView.h */,
 				71DD99FD1946F77200924BCA /* BVReorderTableView.m */,
+				71B2EC1419480A2700CCB28B /* CarouselViewController.h */,
+				71B2EC1519480A2700CCB28B /* CarouselViewController.m */,
 				71D1D5941945C9C20022C710 /* Images.xcassets */,
 				71D1D58B1945C9C20022C710 /* todolist.xcdatamodeld */,
+				71B2EC07194805F300CCB28B /* iCarousel */,
 				71D1D5841945C9C20022C710 /* Supporting Files */,
 			);
 			path = todolist;
@@ -533,7 +575,9 @@
 			files = (
 				71DD99F61946C55500924BCA /* TodoItemCellTableViewCell.m in Sources */,
 				715DE42D1946A073006DE972 /* ToDoItem.m in Sources */,
+				71B2EC1619480A2700CCB28B /* CarouselViewController.m in Sources */,
 				715DE42A1945FF50006DE972 /* AddTaskViewController.m in Sources */,
+				71B2EC0A194805F300CCB28B /* iCarousel.m in Sources */,
 				71D1D58D1945C9C20022C710 /* todolist.xcdatamodeld in Sources */,
 				71D1D58A1945C9C20022C710 /* AppDelegate.m in Sources */,
 				71DD99FE1946F77200924BCA /* BVReorderTableView.m in Sources */,

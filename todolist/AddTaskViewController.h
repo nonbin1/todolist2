@@ -8,14 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "ToDoItem.h"
+#import "iCarousel.h"
 
-@interface AddTaskViewController : UIViewController
+@interface AddTaskViewController : UIViewController <iCarouselDataSource, iCarouselDelegate>
 {
     IBOutlet UITextField *taskName;
     IBOutlet UIButton *createTask;
     
 }
 
+@property (nonatomic, strong) IBOutlet iCarousel *carousel;
 
 - (IBAction) createTask:(id)sender;
 - (IBAction) taskNameReturn:(id)sender;
