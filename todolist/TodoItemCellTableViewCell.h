@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface TodoItemCellTableViewCell : UITableViewCell
+{
+    //IBOutlet UILabel *name;
+}
 
-@property (weak, nonatomic) IBOutlet UILabel *name;
+@property  IBOutlet UILabel *name;
 
 @end

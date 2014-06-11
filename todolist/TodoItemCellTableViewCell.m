@@ -15,7 +15,6 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
-        self.name.lineBreakMode = NSLineBreakByWordWrapping;
     }
     return self;
 }

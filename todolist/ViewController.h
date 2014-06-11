@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController
 {
     NSMutableArray *todoItems;
+    
     IBOutlet UITableView *todoListsTable;
 }
 
