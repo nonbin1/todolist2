@@ -96,10 +96,12 @@
     //data of some kind - don't store data in your item views
     //or the recycling mechanism will destroy your data once
     //your item views move off-screen
+    
+    
+    /** Load Icon Id **/
     self.iconsList = [NSMutableArray array];
-    for (int i = 10; i < 30; i++)
+    for (int i = 10; i < 60; i++)
     {
-        //NSString *imageName = [NSString stringWithFormat:@"Roundicons-%d.png",i];
         [iconsList addObject:@(i)];
     }
     
@@ -107,8 +109,7 @@
 
 - (void)dealloc
 {
-    //it's a good idea to set these to nil here to avoid
-    //sending messages to a deallocated viewcontroller
+    
     carousel.delegate = nil;
     carousel.dataSource = nil;
 }

@@ -82,7 +82,6 @@
 		71B2EC0E194808ED00CCB28B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2EC0D194808ED00CCB28B /* UIKit.framework */; };
 		71B2EC10194808F100CCB28B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2EC0F194808F100CCB28B /* Foundation.framework */; };
 		71B2EC12194808F800CCB28B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B2EC11194808F800CCB28B /* CoreGraphics.framework */; };
-		71B2EC1619480A2700CCB28B /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B2EC1519480A2700CCB28B /* CarouselViewController.m */; };
 		71D1D5871945C9C20022C710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D5861945C9C20022C710 /* main.m */; };
 		71D1D58A1945C9C20022C710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D5891945C9C20022C710 /* AppDelegate.m */; };
 		71D1D58D1945C9C20022C710 /* todolist.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71D1D58B1945C9C20022C710 /* todolist.xcdatamodeld */; };
@@ -184,8 +183,6 @@
 		71B2EC0D194808ED00CCB28B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		71B2EC0F194808F100CCB28B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71B2EC11194808F800CCB28B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		71B2EC1419480A2700CCB28B /* CarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
-		71B2EC1519480A2700CCB28B /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
 		71D1D5811945C9C20022C710 /* todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D1D5851945C9C20022C710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71D1D5861945C9C20022C710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -300,8 +297,6 @@
 				71DD99F51946C55500924BCA /* TodoItemCellTableViewCell.m */,
 				71DD99FC1946F77200924BCA /* BVReorderTableView.h */,
 				71DD99FD1946F77200924BCA /* BVReorderTableView.m */,
-				71B2EC1419480A2700CCB28B /* CarouselViewController.h */,
-				71B2EC1519480A2700CCB28B /* CarouselViewController.m */,
 				71D1D5941945C9C20022C710 /* Images.xcassets */,
 				71D1D58B1945C9C20022C710 /* todolist.xcdatamodeld */,
 				71B2EC07194805F300CCB28B /* iCarousel */,
@@ -575,7 +570,6 @@
 			files = (
 				71DD99F61946C55500924BCA /* TodoItemCellTableViewCell.m in Sources */,
 				715DE42D1946A073006DE972 /* ToDoItem.m in Sources */,
-				71B2EC1619480A2700CCB28B /* CarouselViewController.m in Sources */,
 				715DE42A1945FF50006DE972 /* AddTaskViewController.m in Sources */,
 				71B2EC0A194805F300CCB28B /* iCarousel.m in Sources */,
 				71D1D58D1945C9C20022C710 /* todolist.xcdatamodeld in Sources */,
